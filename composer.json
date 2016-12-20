@@ -1,5 +1,5 @@
 {
-    "name": "raducorp/yii2-common",
+    "name": "raducorp/rii2",
     "description": "Yii2 Common Features",
     "type": "yii2-extension",
     "require": {
