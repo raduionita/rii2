@@ -2,7 +2,7 @@
 
 namespace rii\console;
 
-use yii\base\UnknownPropertyException;
+use \yii\base\UnknownPropertyException;
 
 class Request extends \yii\console\Request
 {

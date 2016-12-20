@@ -11,6 +11,7 @@ class Application extends \yii\console\Application
     {
         return array_merge(parent::coreComponents(), [
             'request' => ['class' => 'rii\console\Request'],
+            'user'    => ['class' => 'rii\console\User'],
         ]);
     }
 }
