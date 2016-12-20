@@ -1,7 +1,7 @@
 {
     "name": "raducorp/yii2-common",
     "description": "Yii2 Common Features",
-    "type": "library",
+    "type": "yii2-extension",
     "require": {
         "php": ">=7.0",
         "yiisoft/yii2": "^2.0"
@@ -16,5 +16,10 @@
             "email": "ionita.radu.ionut@gmail.com"
         }
     ],
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "yii\\common\\": ""
+        }
+    }
 }
