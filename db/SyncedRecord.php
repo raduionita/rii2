@@ -1,6 +1,6 @@
 <?php
 
-namespace common\db;
+namespace yii\common\db;
 
 use yii\db\ActiveRecord;
 use yii\db\Query;
