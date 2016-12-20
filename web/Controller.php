@@ -1,6 +1,6 @@
 <?php
 
-namespace yii\common\web;
+namespace rii\web;
 
 class Controller extends \yii\web\Controller
 {
