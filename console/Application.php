@@ -14,4 +14,9 @@ class Application extends \yii\console\Application
             'user'    => ['class' => 'rii\console\User'],
         ]);
     }
+
+    public function runAction($route, $params = [])
+    {
+        return parent::runAction($route, $params);
+    }
 }
